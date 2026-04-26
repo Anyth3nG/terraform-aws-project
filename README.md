@@ -59,3 +59,15 @@ terraform destroy
 ```
 
 ## Project structure
+terraform-aws-project/
+├── provider.tf      # AWS provider and Terraform settings
+├── variables.tf     # Input variables (region, CIDR blocks, instance type)
+├── main.tf          # All resource definitions
+└── outputs.tf       # Outputs displayed after apply (EC2 IP, bucket name, VPC ID)
+
+
+
+
+
+
+
